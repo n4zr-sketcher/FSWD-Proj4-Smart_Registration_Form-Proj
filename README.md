@@ -6,7 +6,7 @@ A simple and responsive **Student Registration Form** built using **HTML, CSS, a
 
 Check out the live version of the project:
 
-👉 **[Smart Registration Form - Live Demo](https://your-username.github.io/your-repository-name/)**
+👉 **[Smart Registration Form - Live Demo](https://n4zr-sketcher.github.io/FSWD-Proj4-Smart_Registration_Form-Proj/)**
 
 ## 📌 About the Project
 
