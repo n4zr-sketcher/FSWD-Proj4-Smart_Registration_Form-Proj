@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>Smart Registration Form</h1>
+
+    <form>
+
+        <div class="form-group">
+
+            <label for="name">Name:</label>
+
+            <input type="text" id="name" name="name">
+
+            <div class="error" id="nameError">
+                Name is required.
+            </div>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="email">E-mail:</label>
+
+            <input type="email" id="email" name="email">
+
+            <div class="error" id="emailError">
+                Enter a valid email address.
+            </div>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="password">Password:</label>
+
+            <input type="password" id="password" name="password">
+
+            <div class="error" id="passwordError">
+                Password must contain at least 6 characters.
+            </div>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="bio">Bio:</label>
+
+            <textarea id="bio" name="bio" maxlength="200"></textarea>
+
+            <div class="counter">
+                <span id="charCount">0</span> / 200 characters
+            </div>
+
+        </div>
+
+
+        <button disabled type="submit" id="submitbtn" >Submit</button>
+
+
+    </form>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
