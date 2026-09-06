@@ -134,12 +134,6 @@ git clone https://github.com/your-username/your-repository-name.git
 
 > No additional libraries or frameworks are required.
 
-## 📸 Project Preview
-
-```markdown
-!![preview image](image.png)
-```
-
 ## 🎯 Project Objective
 
 The main objective of this project is to understand how **HTML, CSS, and JavaScript work together** to create an interactive web form.
